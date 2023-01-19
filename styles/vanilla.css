@@ -1,0 +1,23 @@
+/* header styles */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.banner-1 {
+    background-image: url(../images/banner.png);
+    height: 100vh;
+    
+}
+.banner-2 {
+    background-image: url(../images/banner.jpg);
+    height: 100vh;
+
+}
+.banner-3 {
+    background-image: url(../images/banner3.jpg);
+    height: 100vh;
+    background-blend-mode: overlay;
+}
+/* commont style */
+.description {
+    color: white;
+}
