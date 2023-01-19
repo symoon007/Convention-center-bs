@@ -10,10 +10,15 @@
     <!-- raw css file -->
     <link rel="stylesheet" href="styles/vanilla.css" />
     <!-- project font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4493e0a26b.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="c my-5">
+    <header class="container w-100 my-5">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand fw-bold" href="#">Abacus Convention Center</a>
@@ -76,38 +81,54 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="banner-1 text-white d-flex justify-content-center align-items-center">
-                <div class="banner-detail text-center">
-                     <h1 class="display-4 fw-bold">The perfect venue for your <br>
-next event</h1>
-<p class="description">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
-<button class="btn btn-secondary">Book Now</button>
-                </div>
-              
+            <div
+              class="banner-1 text-white d-flex justify-content-center align-items-center"
+            >
+              <div class="banner-detail text-center">
+                <h1 class="display-4 fw-bold">
+                  The perfect venue for your <br />
+                  next event
+                </h1>
+                <p class="description">
+                  Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                  dolor do amet sint. Velit officia consequat duis enim velit
+                </p>
+                <button class="btn btn-secondary">Book Now</button>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
-             <div class="banner-2 text-dark d-flex justify-content-center align-items-center">
-                <div class="banner-detail text-center">
-                     <h1 class="display-4 fw-bold">The perfect venue for your <br>
-next event</h1>
-<p class="description">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
-                </div>
-              
+            <div
+              class="banner-2 text-dark d-flex justify-content-center align-items-center"
+            >
+              <div class="banner-detail text-center">
+                <h1 class="display-4 fw-bold">
+                  The perfect venue for your <br />
+                  next event
+                </h1>
+                <p class="description">
+                  Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                  dolor do amet sint. Velit officia consequat duis enim velit
+                </p>
+              </div>
             </div>
-             </div>
-             <div class="carousel-item">
-
-                 <div class="banner-3 text-primary d-flex justify-content-center align-items-center">
-                      <div class="banner-detail text-center">
-                           <h1 class="display-4 fw-bold">The perfect venue for your <br>
-       next event</h1>
-       <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
-                      </div>
-                    
-                  </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="banner-3 text-primary d-flex justify-content-center align-items-center"
+            >
+              <div class="banner-detail text-center">
+                <h1 class="display-4 fw-bold">
+                  The perfect venue for your <br />
+                  next event
+                </h1>
+                <p class="description">
+                  Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                  dolor do amet sint. Velit officia consequat duis enim velit
+                </p>
+              </div>
             </div>
-                
+          </div>
         </div>
         <button
           class="carousel-control-prev"
@@ -129,6 +150,128 @@ next event</h1>
         </button>
       </div>
     </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main class="container">
+      <section class="mx-5 explore-container">
+        <div class="explore-img w-50">
+          <img src="images/wedding.png" alt="" class="img-fluid" />
+        </div>
+        <div class="explore-content d-flex align-items-center ms-5 w-50">
+          <div>
+            <h3 class="fw-bold">Every moment is Precious</h3>
+            <p class="description-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Explore Our Album <i class="fa-solid fa-arrow-right"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Big Sale!!!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="description-2"><i class="fa-solid fa-gift"></i> 20% off on next booking</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+      <!-- explore end -->
+      <section class="our-packages m-5">
+        <h3 class="fw-bold text-center mb-">Our package col-12</h3>
+        <div class="packages d-flex flex-wrap mt-5">
+          <div class="package col-12 col-md-3 rounded p-4">
+          <h4 class="fw-bold">$300</h4>
+          <h5 class="fw-bold my-3">Business Fair</h5>
+          <p class="description-2">For most businesses event 
+like book fair, craft fair.</p>
+<ol class="description-2 list-unstyled">
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> limited space access</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Secuirty facility</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> event support</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Decoration design</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Per day bill</li>
+</ol>
+  <div class="btn-choose d-flex justify-content-center my-3">
+    <button class="btn btn-primary">Choose plan</button>
+  </div>
+
+
+          </div>
+          <div class="package col-12 col-md-3 rounded p-4">
+          <h4 class="fw-bold">$300</h4>
+          <h5 class="fw-bold my-3">Business Fair</h5>
+          <p class="description-2">For most businesses event 
+like book fair, craft fair.</p>
+<ol class="description-2 list-unstyled">
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> limited space access</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Secuirty facility</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> event support</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Decoration design</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Per day bill</li>
+</ol>
+  <div class="btn-choose d-flex justify-content-center my-3">
+    <button class="btn btn-primary">Choose plan</button>
+  </div>
+
+
+          </div>
+          <div class="package col-12 col-md-3 text-bg-primary rounded p-4 position-relative">
+            <div class="hot px-3 py-1">Hot</div>
+          <h4 class="fw-bold">$300</h4>
+          <h5 class="fw-bold my-3">Business Fair</h5>
+          <p class="">For most businesses event 
+like book fair, craft fair.</p>
+<ol class=" list-unstyled">
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> limited space access</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Secuirty facility</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> event support</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Decoration design</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Per day bill</li>
+</ol>
+  <div class="btn-choose d-flex justify-content-center my-3">
+    <button class="btn btn-secondary">Choose plan</button>
+  </div>
+
+
+          </div>
+          <div class="package col-12 col-md-3 rounded p-4">
+          <h4 class="fw-bold">$300</h4>
+          <h5 class="fw-bold my-3">Business Fair</h5>
+          <p class="description-2">For most businesses event 
+like book fair, craft fair.</p>
+<ol class="description-2 list-unstyled">
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> limited space access</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Secuirty facility</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> event support</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Decoration design</li>
+  <li><i class="fa-sharp fa-solid fa-circle-check"></i> Per day bill</li>
+</ol>
+  <div class="btn-choose d-flex justify-content-center my-3">
+    <button class="btn btn-primary">Choose plan</button>
+  </div>
+
+
+          </div>
+         
+        </div>
+      </section>
+    </main>
     <!-- bootstrap js file -->
     <script src="js/bootstrap.js"></script>
   </body>

@@ -2,22 +2,57 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
 .banner-1 {
     background-image: url(../images/banner.png);
     height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
     
 }
 .banner-2 {
     background-image: url(../images/banner.jpg);
     height: 100vh;
-
+    width: 100%;
+     background-repeat: no-repeat;
 }
 .banner-3 {
     background-image: url(../images/banner3.jpg);
     height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
     background-blend-mode: overlay;
 }
 /* commont style */
 .description {
     color: white;
+}
+.description-2 {
+    color:rgb(105, 105, 105);
+}
+.explore-container {
+    display: flex;
+}
+
+.hot {
+    position: absolute;
+    top: -10px;
+    left: 180px;
+    background-color: orangered;
+    border-radius: 50%;
+    
+}
+@media screen and (max-width: 575.98) {
+    .banner-1, .banner-2, .banner-3 {
+        width: 100%;
+        height: auto;
+    }
+    .explore-container {
+        flex-direction: column;
+        margin: 0;
+    }
+    .explore-img img {
+        width: 100% !important;
+        height: auto;
+    }
 }
