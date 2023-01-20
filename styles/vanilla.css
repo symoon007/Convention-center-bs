@@ -31,7 +31,10 @@
     color:rgb(105, 105, 105);
 }
 .explore-container {
-    display: flex;
+
+}
+.explore-content {
+    margin-left: 60px;
 }
 
 .hot {
@@ -42,7 +45,18 @@
     border-radius: 50%;
     
 }
-@media screen and (max-width: 575.98) {
+.cilents {
+   
+}
+.footer-section {
+    background-color: #0B0D17;
+}
+.apps-link img {
+    width: 200px;
+    height: auto;
+
+}
+@media screen and (max-width: 575.98px) {
     .banner-1, .banner-2, .banner-3 {
         width: 100%;
         height: auto;
@@ -54,5 +68,17 @@
     .explore-img img {
         width: 100% !important;
         height: auto;
+    }
+    .explore-content {
+        margin-left: 0;
+    }
+    .faqs {
+        flex-direction: column-reverse;
+    }
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .apps-link {
+        margin-left:50px;
     }
 }
